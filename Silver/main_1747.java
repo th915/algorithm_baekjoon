@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * 1747번 소수&팰린드롬
+ * 
+ * @author 이태희
+ */
 public class main_1747 {
 
     public static void main(String[] args) {
