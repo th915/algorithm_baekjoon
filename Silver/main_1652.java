@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * 1652번 누울 자리를 찾아라
+ * 
+ * @author 이태희
+ */
 public class main_1652 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
