@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * 17478번 재귀함수가 뭔가요?
+ * 
+ * @author 이태희
+ */
 public class main_17478 {
 
     public static void main(String[] args) {
