@@ -1,6 +1,11 @@
 import java.util.*;
 
-public class Main {
+/**
+ * 1316번 그룹 단어 체커
+ * 
+ * @author 이태희
+ */
+public class main_1316 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
