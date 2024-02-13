@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * 1244번 스위치 켜고 끄기
+ * 
+ * @author 이태희
+ */
 public class main_1244 {
 
     public static int[] arrays;
@@ -37,7 +42,7 @@ public class main_1244 {
             }
         }
 
-        for (int i = 1; i < arrays.length-1; i++) {
+        for (int i = 1; i < arrays.length; i++) {
             System.out.print(arrays[i] + " ");
             if(i % 20 == 0){
                 System.out.print("\n");
