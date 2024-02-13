@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+ * 1259번 팰린드롬수
+ * 
+ * @author 이태희
+ */
+public class main_1259 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = -1;
