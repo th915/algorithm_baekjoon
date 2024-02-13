@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * 2563번 색종이
+ * 
+ * @author 이태희
+ */
 public class main_2563 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
