@@ -16,6 +16,7 @@ public class main_16926 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer tk = new StringTokenizer(br.readLine());
+        StringBuilder sb = new StringBuilder();
 
         n = Integer.parseInt(tk.nextToken());
         m = Integer.parseInt(tk.nextToken());
@@ -35,10 +36,11 @@ public class main_16926 {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                System.out.print(arrays[i][j] + " ");
+                sb.append(arrays[i][j] + " ");
             }
-            System.out.println();
+            sb.append("\n");
         }
+        System.out.println(sb);
     }
 
     public static void roll(int x, int y, int xEnd, int yEnd){
