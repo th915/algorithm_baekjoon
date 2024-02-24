@@ -1,6 +1,11 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
+/**
+ * 1074번 Z
+ * 
+ * @author 이태희
+ */
 public class Main {
 	static int count = 0;
 
@@ -11,7 +16,7 @@ public class Main {
 		int r = Integer.parseInt(st.nextToken());
 		int c = Integer.parseInt(st.nextToken());
 		int size = (int) Math.pow(2, N);
-		
+
 		find(size, r, c);
 		System.out.println(count);
 	}
@@ -19,7 +24,7 @@ public class Main {
 	private static void find(int size, int r, int c) {
 		if(size == 1)
 			return;
-		
+
 		if(r < size/2 && c < size/2) {
 			find(size/2, r, c);
 		}
